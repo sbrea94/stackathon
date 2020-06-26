@@ -1,21 +1,60 @@
 body {
-  font-family: sans-serif;
+  margin: 0;
+  font-family: 'Karma', serif;
+  color: teal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background: url('https://www.handletheheat.com/wp-content/uploads/2015/03/Best-Birthday-Cake-with-milk-chocolate-buttercream-SQUARE.jpg');
+  background-size: 1800px;
+  background-attachment: fixed;
 }
 
-a {
-  text-decoration: none;
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }
 
-label {
-  display: block;
+p {
+  margin: 0;
+  background-color: lightpink;
+  display: flex;
+  flex-direction: row;
 }
 
-nav a {
-  display: inline-block;
-  margin: 1em;
+li {
+  text-align: start;
+  width: 600px;
 }
 
-form div {
-  margin: 1em;
-  display: inline-block;
+button {
+  width: 175px;
+  height: 100px;
+  font-size: 20px;
+  color: purple;
+  background-color: plum;
+  border-radius: 150px;
+}
+h1 {
+  font-size: 50px;
+}
+.homeButton {
+  font-size: 20px;
+  text-align: end;
+  margin-right: 15px;
+  margin-top: 10px;
+}
+.recipesBody {
+  background-image: url('https://paperpull.com/wp-content/uploads/2018/09/cadbury-chocolate-bar-wallpaper-680x425.jpg');
+}
+h2 {
+  text-align: start;
+}
+
+#homepage {
+  text-align: center;
+}
+
+#padding {
+  margin-bottom: 300px;
 }
